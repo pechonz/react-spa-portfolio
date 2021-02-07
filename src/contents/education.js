@@ -18,8 +18,8 @@ class Education extends Component {
             iconStyle={{ background: 'rgb(231, 76, 60)', color: '#fff' }}
             icon={<WorkIcon />}
           >
-            <h3 className="vertical-timeline-element-title">{this.props.BEtitle}</h3>
-            <h5 className="vertical-timeline-element-subtitle">{this.props.BEsubtitle}</h5>
+            <h5 className="vertical-timeline-element-title">{this.props.BEtitle}</h5>
+            <h6 className="vertical-timeline-element-subtitle">{this.props.BEsubtitle}</h6>
             <p>
             {this.props.BEdetails.map((value) => {
                 return <li>{value}</li>
@@ -36,8 +36,8 @@ class Education extends Component {
             iconStyle={{ background: 'rgb(231, 76, 60)', color: '#fff' }}
             icon={<WorkIcon />}
           >
-            <h3 className="vertical-timeline-element-title">{this.props.VDtitle}</h3>
-            <h5 className="vertical-timeline-element-subtitle">{this.props.VDsubtitle}</h5>
+            <h5 className="vertical-timeline-element-title">{this.props.VDtitle}</h5>
+            <h6 className="vertical-timeline-element-subtitle">{this.props.VDsubtitle}</h6>
             <p>
             {this.props.VDdetails.map((value) => {
                 return <li>{value}</li>
@@ -54,8 +54,8 @@ class Education extends Component {
             iconStyle={{ background: 'rgb(231, 76, 60)', color: '#fff' }}
             icon={<WorkIcon />}
           >
-            <h3 className="vertical-timeline-element-title">{this.props.VCtitle}</h3>
-            <h5 className="vertical-timeline-element-subtitle">{this.props.VCsubtitle}</h5>
+            <h5 className="vertical-timeline-element-title">{this.props.VCtitle}</h5>
+            <h6 className="vertical-timeline-element-subtitle">{this.props.VCsubtitle}</h6>
             <p>
             {this.props.VCdetails.map((value) => {
                 return <li>{value}</li>

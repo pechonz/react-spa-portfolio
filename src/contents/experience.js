@@ -18,8 +18,8 @@ class Experience extends Component {
             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
             icon={<WorkIcon />}
           >
-            <h3 className="vertical-timeline-element-title">{this.props.HOPTtitle}</h3>
-            <h5 className="vertical-timeline-element-subtitle">{this.props.HOPTsubtitle}</h5>
+            <h5 className="vertical-timeline-element-title">{this.props.HOPTtitle}</h5>
+            <h6 className="vertical-timeline-element-subtitle">{this.props.HOPTsubtitle}</h6>
             <p>
             {this.props.HOPTdetails.map((value) => {
                 return <li>{value}</li>
@@ -36,8 +36,8 @@ class Experience extends Component {
             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
             icon={<WorkIcon />}
           >
-            <h3 className="vertical-timeline-element-title">{this.props.RMUTLtitle}</h3>
-            <h5 className="vertical-timeline-element-subtitle">{this.props.RMUTLsubtitle}</h5>
+            <h5 className="vertical-timeline-element-title">{this.props.RMUTLtitle}</h5>
+            <h6 className="vertical-timeline-element-subtitle">{this.props.RMUTLsubtitle}</h6>
             {this.props.RMUTLdetails.map((value) => {
                 return <li>{value}</li>
               }

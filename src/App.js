@@ -42,13 +42,12 @@ var experienceHOPT = {
   from:"May 2019" , 
   to:"Present" ,
   details: [
-    'Develop SCADA dashboard for display production results and WIP. Both in terms of quantity and quality, which can increase productivity by 10-20 percent.',
-    'Develop KPI dashboard for display KPI results for manager to analyze. In terms of productivity, profits, and resources.',
-    'Develop Sale dashboard to follow up export and sales results that follow the principles of target or not.',
+    'Develop SCADA dashboard for display production results and WIP.',
+    'Develop KPI dashboard for display KPI results for manager to analyze.',
+    'Develop Sale dashboard to follow up export and sales results.',
     'Develop Spending Cost dashboard to almost real time accumulative spending.',
-    'Database administration (Oracle, MySQL) and prepare various information for users.',
-    'Maintain and manage computer and network systems in the factory.',
-    'Develop Daily report systems.'
+    'Database administration (Oracle, Microsoft SQL).',
+    'Maintain and manage computer and network systems in the factory.'
   ]
 };
 
