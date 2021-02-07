@@ -7,7 +7,7 @@
 }
 
 body{
-  background-color: #18191A;
+  background-color: #242526;
 }
 
 .container {
@@ -20,10 +20,6 @@ body{
   margin: 0 auto;
   display : flex;
   flex-direction: row;
-}
-
-.footer{
-  color: #F2CC64;
 }
 
 h1{
@@ -52,7 +48,6 @@ h4{
 
 header {
   height: 700px;
-
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
@@ -68,13 +63,17 @@ header::after {
   height: 100%;
 }
 
+.footer{
+  color: #F2CC64;
+}
+
 nav {
   height: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
   color: #9ABECF;
-  background: #242526;
+  background: #18191A;
   position: relative;
   z-index: 10;
 }
@@ -152,7 +151,7 @@ p1{
   color: #FFFAF5;
 }
 hh2{
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding: 1.5rem;
   color: #9ABECF;
 }
@@ -173,24 +172,6 @@ hh2{
   padding: 10px;
   flex: 33%;
   text-align: center;
-}
-
-.timeline {
-  position: relative;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-/* The actual timeline (the vertical ruler) */
-.timeline::after {
-  content: '';
-  position: absolute;
-  width: 6px;
-  background-color: #192B5D;
-  top: 0;
-  bottom: 0;
-  left: 50%;
-  margin-left: -3px;
 }
 
 /* Container around content */

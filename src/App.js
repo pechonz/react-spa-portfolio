@@ -1,23 +1,31 @@
 import './App.css';
+import Navbar from './contents/navbar';
 import Home from './contents/home';
 import Profile from './contents/profile';
 import Experience from './contents/experience';
 import Education from './contents/education';
 import Skill from './contents/skills';
-import Minipro from './contents/miniproject';
+import Footer from './contents/footer';
 import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 import moment from 'moment';
 
 var a = moment();
 var b = moment('21-May-1993', 'DD-MMM-YYYY');
-var c = moment('21-May-2020', 'DD-MMM-YYYY');
+var age = moment.duration(a.diff(b));
+var years = age.years();
+var months = age.months();
+var days = age.days();
 
+var ages = years + " years " + months + " months " + days + " days ";
+
+//Profile
 var aboutinfo = { 
   name:"Naruephon Sooksinchai", 
   nickname:"Petch" ,
   position:"Web Developer",
   born:"21 May 1993",
+  age: ages,
   address:"Lamphun, Thailand",
   nationality:"Thai",
   religion:"Buddhism",
@@ -27,7 +35,7 @@ var aboutinfo = {
   mail:"naruephon.sooksinchai@hotmail.com",
   telephone:"+66998365989"
 }
-
+//Experience
 var experienceHOPT = {
   title: "System Engineer",
   subtitle: "Hoya Optics (Thailand) Ltd.", 
@@ -55,7 +63,7 @@ var experienceRMUTL = {
     'Install and maintain the operating system of university computer.'
   ]
 };
-
+//Education
 var educationBE = {
   title: "Bachelor of Engineering in Computer Engineering",
   subtitle: "Rajamangala University of Technology Lanna",
@@ -89,12 +97,14 @@ function App() {
   return (
     <Router>
       <div>
+      <Navbar /> 
       <Home />  
       <Route>
         <Profile
           name={aboutinfo.name}
           nickname={aboutinfo.nickname}
           position={aboutinfo.position}
+          age={aboutinfo.age}
           born={aboutinfo.born}
           height={aboutinfo.height}
           weight={aboutinfo.weight}
@@ -138,7 +148,7 @@ function App() {
       />
       
       <Skill />
-      <Minipro />
+      <Footer />
       </div>
     </Router>
   );
