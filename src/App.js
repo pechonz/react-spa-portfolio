@@ -33,7 +33,8 @@ var aboutinfo = {
   weight:"57",
   hobby:"Coding, Playing Football, Play with my cats.",
   mail:"naruephon.sooksinchai@hotmail.com",
-  telephone:"+66998365989"
+  telephone:"+66998365989",
+  lineid:"yaguzaqq"
 }
 //Experience
 var experienceHOPT = {
@@ -86,8 +87,8 @@ var educationVD = {
 var educationVC = {
   title: "Vocational Certificate in Electronics",
   subtitle: "Lamphun Technical College",
-  from:"May 2012" , 
-  to:"May 2008", 
+  from:"May 2008" , 
+  to:"May 2012", 
   details: [
   ]
 };
@@ -95,7 +96,6 @@ var educationVC = {
 function App() {
   return (
     <Router>
-      <div>
       <Navbar /> 
       <Home />  
       <Route>
@@ -114,6 +114,7 @@ function App() {
           hobby={aboutinfo.hobby}
           mail={aboutinfo.mail}
           telephone={aboutinfo.telephone}
+          lineid ={aboutinfo.lineid}
         />
       </Route>
       <Route>
@@ -148,7 +149,6 @@ function App() {
       
       <Skill />
       <Footer />
-      </div>
     </Router>
   );
 }

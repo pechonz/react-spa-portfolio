@@ -23,7 +23,7 @@ body{
 }
 
 h1{
-  padding: 3rem;
+  padding: 2.5rem;
   color: #F2CC64;
 }
 h2{
@@ -37,7 +37,7 @@ h5{
 }
 
 .headskill{
-  color: #9ABECF;
+  color: #88CDF6;
   font-size: 2rem;
 }
 
@@ -131,7 +131,13 @@ ul.menu li a:hover {
   align-items: center;
 }
 
-.profilepic{
+.profileHome{
+  border-radius: 50%;
+  width: 350px;
+  margin: 30px;
+}
+
+.profileAbout{
   border-radius: 50%;
   width: 300px;
   margin: 30px;
@@ -140,7 +146,6 @@ ul.menu li a:hover {
 
 .sticky {
   position: fixed;
-  top: 0;
   width: 100%;
 
 }
@@ -152,8 +157,7 @@ p1{
 }
 hh2{
   font-size: 1.5rem;
-  padding: 1.5rem;
-  color: #9ABECF;
+  color: #88CDF6;
 }
 
 .flex-item-left {
@@ -267,7 +271,7 @@ hh2{
   }
 
   .header-info h1 {
-    font-size: 1.8rem;
+    font-size: 3rem;
   }
 
 /* Place the timelime to the left */
@@ -339,18 +343,18 @@ hh2{
 
 @keyframes icon3d {
   0% {
-    text-shadow: 5px 4px rgba(244,67,54,1), -5px -6px rgba(33,150,243,1);
+    text-shadow: 5px 4px rgba(97, 97, 97, 1), -5px -6px rgba(184, 184, 184, 1);
   }
   25% {
-    text-shadow: -5px -6px rgba(244,67,54,1), 5px 4px rgba(33,150,243,1);
+    text-shadow: -5px -6px rgba(97, 97, 97, 1), 5px 4px rgba(184, 184, 184, 1);
   }
   50% {
-    text-shadow: 5px -4px rgba(244,67,54,1), -8px 4px rgba(33,150,243,1);
+    text-shadow: 5px -4px rgba(97, 97, 97, 1), -8px 4px rgba(184, 184, 184, 1);
   }
   75% {
-    text-shadow: -8px -4px rgba(244,67,54,1), -5px -4px rgba(33,150,243,1);
+    text-shadow: -8px -4px rgba(97, 97, 97, 1), -5px -4px rgba(184, 184, 184, 1);
   }
   100% {
-    text-shadow: -5px 0 rgba(244,67,54,1), 5px -4px rgba(33,150,243,1);
+    text-shadow: -5px 0 rgba(97, 97, 97, 1), 5px -4px rgba(184, 184, 184, 1);
   }
 }
