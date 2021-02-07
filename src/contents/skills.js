@@ -44,8 +44,7 @@ function Skill() {
           <div data-aos="fade-up"><p1><b>IT Support | Photography</b></p1></div>
           </div>
         </div>
-
-
+        <br></br>
     </div>
   );
 }

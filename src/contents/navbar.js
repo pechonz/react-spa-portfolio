@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 
 function Navbar() {
   return (
-    <nav id="navbar" class="sticky cd-auto-hide-header" data-aos="fade-down">
+    <nav id="navbar" class="sticky" data-aos="fade-down">
         <ul class="menu">
             <li><a href="#home"><i class="fa fa-home"></i></a></li>
             <li><a href="#about"><i class="fa fa-address-card"></i></a></li>
