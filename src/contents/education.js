@@ -14,7 +14,7 @@ class Education extends Component {
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'rgb(231, 76, 60)', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid  rgb(231, 76, 60)' }}
-            date={this.props.BEperiod}
+            date={this.props.BElength}
             iconStyle={{ background: 'rgb(231, 76, 60)', color: '#fff' }}
             icon={<WorkIcon />}
           >
@@ -32,7 +32,7 @@ class Education extends Component {
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'rgb(231, 76, 60)', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid  rgb(231, 76, 60)' }}
-            date={this.props.VDperiod}
+            date={this.props.VDlength}
             iconStyle={{ background: 'rgb(231, 76, 60)', color: '#fff' }}
             icon={<WorkIcon />}
           >
@@ -50,7 +50,7 @@ class Education extends Component {
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'rgb(231, 76, 60)', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid  rgb(231, 76, 60)' }}
-            date={this.props.VCperiod}
+            date={this.props.VClength}
             iconStyle={{ background: 'rgb(231, 76, 60)', color: '#fff' }}
             icon={<WorkIcon />}
           >

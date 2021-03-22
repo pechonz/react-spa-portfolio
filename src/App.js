@@ -10,22 +10,16 @@ import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 import moment from 'moment';
 
-var a = moment();
-var b = moment('21-May-1993', 'DD-MMM-YYYY');
-var age = moment.duration(a.diff(b));
-var years = age.years();
-var months = age.months();
-var days = age.days();
-
-var ages = years + " years " + months + " months " + days + " days ";
+var dob = moment('21-May-1993', 'DD MMM YYYY');
+var hoptperiod = moment('2-May-2019', 'DD MMM YYYY');
 
 //Profile
 var aboutinfo = { 
   name:"Naruephon Sooksinchai", 
   nickname:"Petch" ,
   position:"Web Developer",
-  born:"21 May 1993",
-  age: ages,
+  born: (moment(dob).format('DD MMM YYYY')).toString(),
+  age: (moment.duration(moment().diff(dob))).years() + " years " + (moment.duration(moment().diff(dob))).months() + " months " + (moment.duration(moment().diff(dob))).days() + " days ",
   address:"Lamphun, Thailand",
   nationality:"Thai",
   religion:"Buddhism",
@@ -36,17 +30,21 @@ var aboutinfo = {
   telephone:"+66998365989",
   lineid:"yaguzaqq"
 }
+
 //Experience
 var experienceHOPT = {
   title: "System Engineer",
   subtitle: "Hoya Optics (Thailand) Ltd.", 
-  from:"May 2019" , 
+  from: (moment(hoptperiod).format('MMM YYYY')).toString(), 
   to:"Present" ,
+  period:(moment.duration(moment().diff(hoptperiod))).years() + " years " + (moment.duration(moment().diff(hoptperiod))).months() + " months " + (moment.duration(moment().diff(hoptperiod))).days() + " days ",
   details: [
     'Develop SCADA dashboard for display production results and WIP.',
     'Develop KPI dashboard for display KPI results for manager to analyze.',
     'Develop Sale dashboard to follow up export and sales results.',
     'Develop Spending Cost dashboard to almost real time accumulative spending.',
+    'Develop Master Items and Process Flow Control system.',
+    'Develop Machine state monitoring with raspberry pi and python.',
     'Database administration (Oracle, Microsoft SQL).',
     'Maintain and manage computer and network systems in the factory.'
   ]
@@ -121,29 +119,30 @@ function App() {
           <Experience
             HOPTtitle={experienceHOPT.title}
             HOPTsubtitle={experienceHOPT.subtitle}
-            HOPTperiod={experienceHOPT.from + "-" + experienceHOPT.to}
+            HOPTlength={experienceHOPT.from + " to " + experienceHOPT.to}
+            HOPTperiod={experienceHOPT.period}
             HOPTdetails={experienceHOPT.details}
 
             RMUTLtitle={experienceRMUTL.title}
             RMUTLsubtitle={experienceRMUTL.subtitle}
-            RMUTLperiod={experienceRMUTL.from + "-" + experienceRMUTL.to}
+            RMUTLlength={experienceRMUTL.from + " to " + experienceRMUTL.to}
             RMUTLdetails={experienceRMUTL.details}
           />
         </Route>
       <Education
             BEtitle={educationBE.title}
             BEsubtitle={educationBE.subtitle}
-            BEperiod={educationBE.from + "-" + educationBE.to}
+            BElength={educationBE.from + " to " + educationBE.to}
             BEdetails={educationBE.details}
 
             VDtitle={educationVD.title}
             VDsubtitle={educationVD.subtitle}
-            VDperiod={educationVD.from + "-" + educationVD.to}
+            VDlength={educationVD.from + " to " + educationVD.to}
             VDdetails={educationVD.details}
 
             VCtitle={educationVC.title}
             VCsubtitle={educationVC.subtitle}
-            VCperiod={educationVC.from + "-" + educationVC.to}
+            VClength={educationVC.from + " to " + educationVC.to}
             VCdetails={educationVC.details}
       />
       

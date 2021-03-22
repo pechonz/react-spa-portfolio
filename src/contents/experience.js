@@ -14,12 +14,13 @@ class Experience extends Component {
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-            date={this.props.HOPTperiod}
+            date={this.props.HOPTlength}
             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
             icon={<WorkIcon />}
           >
             <h5 className="vertical-timeline-element-title">{this.props.HOPTtitle}</h5>
             <h6 className="vertical-timeline-element-subtitle">{this.props.HOPTsubtitle}</h6>
+            <h6 className="vertical-timeline-element-subtitle">{this.props.HOPTperiod}</h6>
             <p>
             {this.props.HOPTdetails.map((value) => {
                 return <li>{value}</li>
@@ -32,7 +33,7 @@ class Experience extends Component {
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-            date={this.props.RMUTLperiod}
+            date={this.props.RMUTLlength}
             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
             icon={<WorkIcon />}
           >
