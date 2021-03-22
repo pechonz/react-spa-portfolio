@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/pechonz.github.io/react-spa-portfolio/static/css/main.4aff03b2.chunk.css",
-    "main.js": "/pechonz.github.io/react-spa-portfolio/static/js/main.f6f33539.chunk.js",
-    "main.js.map": "/pechonz.github.io/react-spa-portfolio/static/js/main.f6f33539.chunk.js.map",
-    "runtime-main.js": "/pechonz.github.io/react-spa-portfolio/static/js/runtime-main.79f7a751.js",
-    "runtime-main.js.map": "/pechonz.github.io/react-spa-portfolio/static/js/runtime-main.79f7a751.js.map",
-    "static/css/2.2aa38b9c.chunk.css": "/pechonz.github.io/react-spa-portfolio/static/css/2.2aa38b9c.chunk.css",
-    "static/js/2.0ee9bb8e.chunk.js": "/pechonz.github.io/react-spa-portfolio/static/js/2.0ee9bb8e.chunk.js",
-    "static/js/2.0ee9bb8e.chunk.js.map": "/pechonz.github.io/react-spa-portfolio/static/js/2.0ee9bb8e.chunk.js.map",
-    "static/js/3.bc0b9e48.chunk.js": "/pechonz.github.io/react-spa-portfolio/static/js/3.bc0b9e48.chunk.js",
-    "static/js/3.bc0b9e48.chunk.js.map": "/pechonz.github.io/react-spa-portfolio/static/js/3.bc0b9e48.chunk.js.map",
-    "index.html": "/pechonz.github.io/react-spa-portfolio/index.html",
-    "static/css/2.2aa38b9c.chunk.css.map": "/pechonz.github.io/react-spa-portfolio/static/css/2.2aa38b9c.chunk.css.map",
-    "static/css/main.4aff03b2.chunk.css.map": "/pechonz.github.io/react-spa-portfolio/static/css/main.4aff03b2.chunk.css.map",
-    "static/js/2.0ee9bb8e.chunk.js.LICENSE.txt": "/pechonz.github.io/react-spa-portfolio/static/js/2.0ee9bb8e.chunk.js.LICENSE.txt",
-    "static/media/logo.345a4760.png": "/pechonz.github.io/react-spa-portfolio/static/media/logo.345a4760.png",
-    "static/media/profilepic.80d12260.jpg": "/pechonz.github.io/react-spa-portfolio/static/media/profilepic.80d12260.jpg"
+    "main.css": "/pechonz.github.io/static/css/main.b574c168.chunk.css",
+    "main.js": "/pechonz.github.io/static/js/main.bc43fc92.chunk.js",
+    "main.js.map": "/pechonz.github.io/static/js/main.bc43fc92.chunk.js.map",
+    "runtime-main.js": "/pechonz.github.io/static/js/runtime-main.719bbbf7.js",
+    "runtime-main.js.map": "/pechonz.github.io/static/js/runtime-main.719bbbf7.js.map",
+    "static/css/2.2aa38b9c.chunk.css": "/pechonz.github.io/static/css/2.2aa38b9c.chunk.css",
+    "static/js/2.2c5a32a3.chunk.js": "/pechonz.github.io/static/js/2.2c5a32a3.chunk.js",
+    "static/js/2.2c5a32a3.chunk.js.map": "/pechonz.github.io/static/js/2.2c5a32a3.chunk.js.map",
+    "static/js/3.bc0b9e48.chunk.js": "/pechonz.github.io/static/js/3.bc0b9e48.chunk.js",
+    "static/js/3.bc0b9e48.chunk.js.map": "/pechonz.github.io/static/js/3.bc0b9e48.chunk.js.map",
+    "index.html": "/pechonz.github.io/index.html",
+    "static/css/2.2aa38b9c.chunk.css.map": "/pechonz.github.io/static/css/2.2aa38b9c.chunk.css.map",
+    "static/css/main.b574c168.chunk.css.map": "/pechonz.github.io/static/css/main.b574c168.chunk.css.map",
+    "static/js/2.2c5a32a3.chunk.js.LICENSE.txt": "/pechonz.github.io/static/js/2.2c5a32a3.chunk.js.LICENSE.txt",
+    "static/media/profileHome.77b69477.jpg": "/pechonz.github.io/static/media/profileHome.77b69477.jpg",
+    "static/media/profilepic.80d12260.jpg": "/pechonz.github.io/static/media/profilepic.80d12260.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.79f7a751.js",
+    "static/js/runtime-main.719bbbf7.js",
     "static/css/2.2aa38b9c.chunk.css",
-    "static/js/2.0ee9bb8e.chunk.js",
-    "static/css/main.4aff03b2.chunk.css",
-    "static/js/main.f6f33539.chunk.js"
+    "static/js/2.2c5a32a3.chunk.js",
+    "static/css/main.b574c168.chunk.css",
+    "static/js/main.bc43fc92.chunk.js"
   ]
 }
